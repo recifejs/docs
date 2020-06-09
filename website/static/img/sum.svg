@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="773.011" height="1282" viewBox="0 0 773.011 1282">
-  <g id="Grupo_27" data-name="Grupo 27" transform="translate(-41 -29)">
-    <g id="GraphQL_Logo" transform="translate(492.26 24.8)">
+<svg xmlns="http://www.w3.org/2000/svg" width="923.011" height="1286" viewBox="0 0 923.011 1286">
+  <g id="Grupo_27" data-name="Grupo 27" transform="translate(-56 -38)">
+    <g id="GraphQL_Logo" transform="translate(657.26 33.8)">
       <g id="Grupo_9" data-name="Grupo 9" transform="translate(40.478 15.055)">
         <g id="Grupo_8" data-name="Grupo 8">
           <rect id="Retângulo_1" data-name="Retângulo 1" width="14.099" height="272.042" transform="matrix(-0.866, -0.5, 0.5, -0.866, 12.21, 242.638)" fill="#e535ab"/>
@@ -53,13 +53,13 @@
       <path id="Caminho_11" data-name="Caminho 11" d="M194.742,385.284a29.642,29.642,0,1,1,29.642-29.642,29.614,29.614,0,0,1-29.642,29.642" transform="translate(-20.997 -48.484)" fill="#e535ab"/>
       <path id="Caminho_12" data-name="Caminho 12" d="M194.742,63.484a29.642,29.642,0,1,1,29.642-29.642,29.614,29.614,0,0,1-29.642,29.642" transform="translate(-20.997)" fill="#e535ab"/>
     </g>
-    <g id="typescript" transform="translate(41 29)">
+    <g id="typescript" transform="translate(56 38)">
       <path id="Caminho_13" data-name="Caminho 13" d="M0,166.3V0H332.6V332.6H0" fill="#007acc"/>
       <path id="Caminho_14" data-name="Caminho 14" d="M87.7,197.554v13.553h43.238V334.169H161.62V211.107h43.238V197.8c0-7.484,0-13.553-.333-13.72,0-.249-26.359-.333-58.371-.333l-58.2.249v13.637l-.249-.083Zm194.322-13.886a40.261,40.261,0,0,1,20.788,11.89c3.077,3.326,7.65,9.147,7.982,10.643,0,.5-14.385,10.227-23.116,15.632-.333.249-1.663-1.164-2.993-3.326-4.324-6.153-8.731-8.814-15.632-9.313-9.978-.665-16.63,4.573-16.63,13.3a13.139,13.139,0,0,0,1.5,6.319c2.245,4.573,6.4,7.317,19.291,12.971,23.781,10.227,34.091,16.963,40.328,26.608,7.068,10.809,8.648,27.772,3.908,40.494-5.322,13.886-18.293,23.282-36.835,26.359-5.82,1-19.124.832-25.361-.249-13.3-2.494-26.026-9.146-33.842-17.711-3.077-3.326-8.98-12.223-8.648-12.805l3.16-2,12.473-7.234,9.4-5.488,2.162,2.91c2.744,4.324,8.9,10.144,12.473,12.14,10.81,5.571,25.278,4.823,32.429-1.663a12.461,12.461,0,0,0,4.407-9.978,12.831,12.831,0,0,0-2.495-8.481c-2.661-3.659-7.982-6.652-22.949-13.3-17.212-7.317-24.529-11.974-31.348-19.124a47.234,47.234,0,0,1-9.146-16.63c-1.247-4.823-1.663-16.63-.5-21.37,3.575-16.63,16.131-28.271,34.091-31.6,5.821-1.164,19.54-.665,25.278.831l-.166.166Z" transform="translate(-14.777 -30.671)" fill="#fff"/>
     </g>
-    <text id="_" data-name="+" transform="translate(390 258)" fill="#fff" font-size="194" font-family="Silom"><tspan x="0" y="0">+</tspan></text>
-    <text id="_2" data-name="=" transform="translate(330 601)" fill="#fff" font-size="346" font-family="Silom"><tspan x="0" y="0">=</tspan></text>
-    <g id="Grupo_26" data-name="Grupo 26" transform="translate(74 590)">
+    <text id="_" data-name="+" transform="translate(477 267)" fill="#fff" font-size="194" font-family="Silom"><tspan x="0" y="0">+</tspan></text>
+    <text id="_2" data-name="=" transform="translate(418 610)" fill="#fff" font-size="346" font-family="Silom"><tspan x="0" y="0">=</tspan></text>
+    <g id="Grupo_26" data-name="Grupo 26" transform="translate(162 603)">
       <g id="Elipse_2" data-name="Elipse 2" transform="translate(23 23)" fill="#fff" stroke="#1145a1" stroke-width="35">
         <circle cx="349" cy="349" r="349" stroke="none"/>
         <circle cx="349" cy="349" r="331.5" fill="none"/>

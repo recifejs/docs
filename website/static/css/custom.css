@@ -89,3 +89,11 @@
   color: #37474f;
   background-color: #cfd8dc !important;
 }
+
+.buttons {
+  display: inline-flex;
+}
+
+.buttons a {
+  margin-right: 15px;
+}

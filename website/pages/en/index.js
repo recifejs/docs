@@ -58,7 +58,10 @@ class HomeSplash extends React.Component {
             Use the powers of typescript to generate GraphQL APIs. You no longer
             have to worry about declaring Types and Resolvers.
           </p>
-          <Button href={docUrl("doc1.html")}>Getting Started</Button>
+          <div className="buttons">
+            <Button href={docUrl("doc1.html")}>Getting Started</Button>
+            <Button href="https://github.com/recifejs">Github</Button>
+          </div>
         </div>
       </SplashContainer>
     );
