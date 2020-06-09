@@ -7,21 +7,6 @@
 
 /* your custom css */
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-}
-
-@media only screen and (min-width: 1024px) {
-}
-
-@media only screen and (max-width: 1023px) {
-}
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
-}
-
 .button {
   font-weight: 600;
   border-width: 2px;
@@ -74,10 +59,15 @@
 .fixedHeaderContainer {
   background-color: white;
   color: #0d47a1;
+  border-bottom: 3px solid #0d47a1;
 }
 
 .fixedHeaderContainer a {
   color: #0d47a1 !important;
+}
+
+.fixedHeaderContainer .slidingNav ul li {
+  margin-right: 10px;
 }
 
 .fixedHeaderContainer li a {
@@ -85,9 +75,13 @@
   font-weight: 600;
 }
 
-.fixedHeaderContainer li a:hover {
+.fixedHeaderContainer .slidingNav ul li a:hover {
   color: #37474f;
-  background-color: #cfd8dc !important;
+  background-color: #cfd8dc;
+}
+
+.fixedHeaderContainer .slidingNav ul li.siteNavItemActive a {
+  background-color: #cfd8dc;
 }
 
 .buttons {
@@ -96,4 +90,35 @@
 
 .buttons a {
   margin-right: 15px;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .homeWrapper {
+    flex-direction: column;
+  }
+  .headerTitleWithLogo {
+    display: initial !important;
+  }
+  .fixedHeaderContainer header {
+    justify-content: center;
+  }
+  .fixedHeaderContainer .navigationSlider .slidingNav ul {
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top: 3px solid #0d47a1;
+    border-bottom: 3px solid #0d47a1;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
 }

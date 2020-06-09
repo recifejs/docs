@@ -1,10 +1,17 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "RecifeJs": ["about", "philosophy", "contribution"],
+    "Getting Started": ["installation", "settings", "project-structure"],
+    "Concepts Basics": [
+      "controllers",
+      "decorators",
+      "middleware",
+      "models",
+      "plugins",
+      "scalars",
+      "validators"
+    ],
+    "CLI": ["introduction-cli", "project-cli", "structures-cli"],
+    "Testing": ["introduction-test", "http-tests", "mock-tests"]
   }
 }

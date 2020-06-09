@@ -59,7 +59,7 @@ class HomeSplash extends React.Component {
             have to worry about declaring Types and Resolvers.
           </p>
           <div className="buttons">
-            <Button href={docUrl("doc1.html")}>Getting Started</Button>
+            <Button href={docUrl("installation.html")}>Getting Started</Button>
             <Button href="https://github.com/recifejs">Github</Button>
           </div>
         </div>
