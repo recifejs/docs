@@ -4,7 +4,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- 
+
 /* your custom css */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -20,4 +20,72 @@
 }
 
 @media only screen and (min-width: 1500px) {
+}
+
+.button {
+  font-weight: 600;
+  border-width: 2px;
+  transition: 0.2s all;
+}
+
+.logo {
+  height: 400px;
+}
+
+.homeWrapper {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.homeWrapper .title {
+  text-align: left;
+  margin-left: 100px;
+  color: white;
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.homeWrapper .title h1 {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.homeWrapper .button {
+  color: white;
+  border-color: white;
+}
+
+.homeWrapper .button:hover {
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+.homeContainer {
+  background-color: #455a64;
+  background-image: url("/img/background.png");
+}
+
+.fixedHeaderContainer {
+  background-color: white;
+  color: #0d47a1;
+}
+
+.fixedHeaderContainer a {
+  color: #0d47a1 !important;
+}
+
+.fixedHeaderContainer li a {
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.fixedHeaderContainer li a:hover {
+  color: #37474f;
+  background-color: #cfd8dc !important;
 }
