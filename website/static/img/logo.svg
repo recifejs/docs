@@ -1,23 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="817" height="763" viewBox="0 0 817 763">
-  <g id="Grupo_9" data-name="Grupo 9" transform="translate(-65 -86)">
-    <g id="Grupo_8" data-name="Grupo 8">
-      <g id="Elipse_2" data-name="Elipse 2" transform="translate(205 86)" fill="none" stroke="#fff" stroke-width="35">
-        <circle cx="268.5" cy="268.5" r="268.5" stroke="none"/>
-        <circle cx="268.5" cy="268.5" r="251" fill="none"/>
-      </g>
-      <path id="Caminho_1" data-name="Caminho 1" d="M162.882,85.971C105.128,116.444,85.5,165.64,85.5,165.64l112.218,54.588s2.632-7.424,11.3-16.294a64.661,64.661,0,0,1,13.321-10.283Z" transform="translate(225.829 107.495)" fill="#fff"/>
-      <path id="Caminho_3" data-name="Caminho 3" d="M163.4,219.983c-57.754-30.473-77.9-79.446-77.9-79.446L198.1,85.411s5.065,14.546,25.026,26.345Z" transform="translate(225.829 295.128)" fill="#fff"/>
-      <path id="Caminho_5" data-name="Caminho 5" d="M144.958,85.971c57.754,30.473,77.382,79.669,77.382,79.669L110.123,220.228s-2.632-7.424-11.3-16.294A64.662,64.662,0,0,0,85.5,193.651Z" transform="translate(411.003 107.495)" fill="#fff"/>
-      <path id="Caminho_6" data-name="Caminho 6" d="M144.958,220.228c57.754-30.473,77.382-79.669,77.382-79.669L110.123,85.971s-2.632,7.424-11.3,16.294A64.661,64.661,0,0,1,85.5,112.548Z" transform="translate(410.517 294.137)" fill="#fff"/>
-      <g id="Elipse_3" data-name="Elipse 3" transform="translate(291 172)" fill="none" stroke="#fff" stroke-width="35">
-        <circle cx="182" cy="182" r="182" stroke="none"/>
-        <circle cx="182" cy="182" r="164.5" fill="none"/>
-      </g>
-      <g id="Elipse_1" data-name="Elipse 1" transform="translate(411 292)" fill="none" stroke="#fff" stroke-width="35">
-        <circle cx="61" cy="61" r="61" stroke="none"/>
-        <circle cx="61" cy="61" r="43.5" fill="none"/>
-      </g>
+  <g id="Grupo_28" data-name="Grupo 28" transform="translate(-65 -86)">
+    <g id="Elipse_2" data-name="Elipse 2" transform="translate(205 86)" fill="none" stroke="#1145a1" stroke-width="35">
+      <circle cx="268.5" cy="268.5" r="268.5" stroke="none"/>
+      <circle cx="268.5" cy="268.5" r="251" fill="none"/>
     </g>
-    <text id="RECIFEJS" transform="translate(68 803)" fill="#fff" stroke="#fff" stroke-width="3" font-size="194" font-family="Skia-Regular, Skia"><tspan x="0" y="0">RECIFEJS</tspan></text>
+    <path id="Caminho_1" data-name="Caminho 1" d="M162.882,85.971C105.128,116.444,85.5,165.64,85.5,165.64l112.218,54.588s2.632-7.424,11.3-16.294a64.661,64.661,0,0,1,13.321-10.283Z" transform="translate(225.829 107.495)" fill="#2196f3"/>
+    <path id="Caminho_3" data-name="Caminho 3" d="M163.4,219.983c-57.754-30.473-77.9-79.446-77.9-79.446L198.1,85.411s5.065,14.546,25.026,26.345Z" transform="translate(225.829 295.128)" fill="#42a5f5"/>
+    <path id="Caminho_5" data-name="Caminho 5" d="M144.958,85.971c57.754,30.473,77.382,79.669,77.382,79.669L110.123,220.228s-2.632-7.424-11.3-16.294A64.662,64.662,0,0,0,85.5,193.651Z" transform="translate(411.003 107.495)" fill="#1976d2"/>
+    <path id="Caminho_6" data-name="Caminho 6" d="M144.958,220.228c57.754-30.473,77.382-79.669,77.382-79.669L110.123,85.971s-2.632,7.424-11.3,16.294A64.661,64.661,0,0,1,85.5,112.548Z" transform="translate(410.517 294.137)" fill="#90caf9"/>
+    <g id="Elipse_3" data-name="Elipse 3" transform="translate(291 172)" fill="none" stroke="#1565c0" stroke-width="35">
+      <circle cx="182" cy="182" r="182" stroke="none"/>
+      <circle cx="182" cy="182" r="164.5" fill="none"/>
+    </g>
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(411 292)" fill="none" stroke="#1145a1" stroke-width="35">
+      <circle cx="61" cy="61" r="61" stroke="none"/>
+      <circle cx="61" cy="61" r="43.5" fill="none"/>
+    </g>
+    <text id="RECIFEJS" transform="translate(68 803)" fill="#1740a1" stroke="#1740a1" stroke-width="3" font-size="194" font-family="Skia-Regular, Skia"><tspan x="0" y="0">RECIFEJS</tspan></text>
   </g>
 </svg>
