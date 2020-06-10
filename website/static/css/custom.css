@@ -23,22 +23,21 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  max-height: 500px;
   min-height: 500px;
+  padding: 20px;
 }
 
 .homeWrapper .title {
   text-align: left;
-  margin-left: 100px;
   color: white;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .homeWrapper .title h1 {
   margin: 0px;
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .homeWrapper .button {
@@ -52,18 +51,17 @@
 }
 
 .homeContainer {
-  background-color: #455a64;
-  background-image: url("/img/background.png");
+  background: radial-gradient(#1565c0 20%, #1145a1);
 }
 
 .fixedHeaderContainer {
   background-color: white;
-  color: #0d47a1;
-  border-bottom: 3px solid #0d47a1;
+  color: #1145a1;
+  border-bottom: 3px solid #1145a1;
 }
 
 .fixedHeaderContainer a {
-  color: #0d47a1 !important;
+  color: #1145a1 !important;
 }
 
 .fixedHeaderContainer .slidingNav ul li {
@@ -80,7 +78,13 @@
   background-color: #cfd8dc;
 }
 
-.fixedHeaderContainer .slidingNav ul li.siteNavItemActive a {
+.fixedHeaderContainer .slidingNav ul li a:focus {
+  color: #37474f;
+  background-color: #cfd8dc;
+}
+
+.fixedHeaderContainer .slidingNav ul li.siteNavItemActive a,
+.fixedHeaderContainer .slidingNav ul li.siteNavGroupActive a {
   background-color: #cfd8dc;
 }
 
@@ -90,6 +94,76 @@
 
 .buttons a {
   margin-right: 15px;
+}
+
+.about h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.about ul {
+  font-size: 20px;
+  font-weight: 300;
+  width: 80%;
+  padding-left: 25px;
+}
+
+.about ul li {
+  margin-bottom: 30px;
+}
+
+.about .logo {
+  height: 200px;
+}
+
+.features h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  font-weight: 900;
+}
+
+.features h2 {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.features p {
+  width: 80%;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 0px !important;
+}
+
+.startProject h2 {
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+.startProject p {
+  margin-bottom: 0px !important;
+}
+
+.startProject .code {
+  width: 100%;
+}
+
+.sitemap {
+  text-align: center;
+}
+
+.sitemap h4 {
+  color: white;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.darkBackground {
+  background-color: #1145a1;
+}
+
+.mainContainer .container:first-child {
+  margin-top: -40px;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -106,8 +180,11 @@
     background: white;
     padding: 5px;
     box-sizing: border-box;
-    border-top: 3px solid #0d47a1;
-    border-bottom: 3px solid #0d47a1;
+    height: 50px;
+  }
+  .fixedHeaderContainer .navigationSlider .slidingNav ul li a {
+    padding: 5px;
+    height: 35px;
   }
 }
 

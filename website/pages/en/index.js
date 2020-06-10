@@ -47,20 +47,15 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <img
-          className="logo"
-          src={`${baseUrl}img/sum.svg`}
-          alt="Project Logo"
-        />
         <div className="title">
-          <h1>RecifeJs</h1>
+          <h1>Typescript + GraphQL = RecifeJs</h1>
           <p>
             Use the powers of typescript to generate GraphQL APIs. You no longer
             have to worry about declaring Types and Resolvers.
           </p>
           <div className="buttons">
             <Button href={docUrl("installation.html")}>Getting Started</Button>
-            <Button href="https://github.com/recifejs">Github</Button>
+            <Button href="https://github.com/recifejs/recife">Github</Button>
           </div>
         </div>
       </SplashContainer>
@@ -87,77 +82,104 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{ textAlign: "center" }}
-      >
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
+    const StartProject = () => (
+      <Container padding={["bottom", "top"]} background="light">
+        <div className="gridBlock startProject">
+          <div className="blockElement twoByGridBlock imageAlignSide">
+            <div className="blockImage">
+              <img src={`${baseUrl}img/undraw_code_review.svg`} />
+            </div>
+            <div className="blockContent">
+              <h2>Start a project</h2>
+              <p>1. Create new project</p>
+              <img className="code" src={`${baseUrl}img/code2.png`} />
+              <p>2. Start the project</p>
+              <img className="code" src={`${baseUrl}img/code3.png`} />
+            </div>
+          </div>
+        </div>
+      </Container>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              "To make your landing page more attractive, use illustrations! Check out " +
-              "[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. " +
-              "The illustrations you see on this page are from unDraw.",
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: "left",
-            title: "Wonderful SVG Illustrations"
-          }
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              "This is another description of how this project is useful",
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: "right",
-            title: "Description"
-          }
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              "Each new Docusaurus project has **randomly-generated** theme colors.",
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: "right",
-            title: "Randomly Generated Theme Colors"
-          }
-        ]}
-      </Block>
+    const About = () => (
+      <Container padding={["bottom", "top"]} background="light">
+        <div className="gridBlock about">
+          <div className="blockElement twoByGridBlock imageAlignSide">
+            <div className="blockContent">
+              <h2>
+                What is the <strong>RecifeJs</strong>?
+              </h2>
+              <ul>
+                <li>
+                  RecifeJs is a powerful MVC Framework for GraphQL in NodeJS.
+                </li>
+                <li>
+                  RecifeJs compiles typescript and creates graphql schemas in a
+                  simple and objective way.
+                </li>
+                <li>
+                  RecifeJs has a whole structure ready to start a GraphQL API.
+                </li>
+                <li>
+                  You no longer have to worry about declaring Types and
+                  Resolvers.
+                </li>
+              </ul>
+            </div>
+            <div className="blockImage">
+              <img src={`${baseUrl}img/code1.png`} />
+            </div>
+          </div>
+        </div>
+      </Container>
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: "This is the content of my feature",
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: "top",
-            title: "Feature One"
-          },
-          {
-            content: "The content of my second feature",
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: "top",
-            title: "Feature Two"
-          }
-        ]}
-      </Block>
+      <Container
+        className="firstContainer"
+        padding={["bottom", "top"]}
+        background="dark"
+      >
+        <div className="gridBlock features">
+          <div className="blockElement fourByGridBlock imageAlignSide">
+            <div className="blockContent">
+              <h1>01</h1>
+              <h2>
+                Flexible <br />
+                Structure
+              </h2>
+              <p>
+                A flexible and configurable structure that allows you to use the
+                maximum typescript resources.
+              </p>
+            </div>
+            <div className="blockContent">
+              <h1>02</h1>
+              <h2>
+                Hot
+                <br />
+                Loader
+              </h2>
+              <p>
+                Check for code updates in real time. There is no need to restart
+                the service to see what's new in GraphQL playground.
+              </p>
+            </div>
+            <div className="blockContent">
+              <h1>03</h1>
+              <h2>
+                Command-line
+                <br />
+                Interface(CLI)
+              </h2>
+              <p>
+                Create projects, controllers, models, validators and much more,
+                through a simple and friendly interface.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Container>
     );
 
     const Showcase = () => {
@@ -193,12 +215,10 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
+          <About />
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <StartProject />
+          {/* <Showcase /> */}
         </div>
       </div>
     );

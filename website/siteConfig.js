@@ -40,7 +40,7 @@ const siteConfig = {
   headerLinks: [
     { doc: "about", label: "Docs" },
     { blog: "blog", label: "Blog" },
-    { page: "https://github.com/recifejs", label: "Github" }
+    { href: "https://github.com/recifejs", label: "Github" }
   ],
 
   // If you have users set above, you add it here:

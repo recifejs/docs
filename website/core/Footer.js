@@ -25,18 +25,15 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
-          </a>
           <div>
-            <h5>Docs</h5>
+            <img
+              src={this.props.config.baseUrl + "img/logo-white.png"}
+              alt={this.props.config.title}
+              width="200"
+            />
+          </div>
+          <div>
+            <h4>Docs</h4>
             <a href={this.docUrl("installation.html", this.props.language)}>
               Getting Started
             </a>
@@ -48,14 +45,11 @@ class Footer extends React.Component {
             </a>
           </div>
           <div>
-            <h5>Community</h5>
+            <h4>Community</h4>
             <a href={this.pageUrl("users.html", this.props.language)}>
               User Showcase
             </a>
             <a href="https://discordapp.com/">Project Chat</a>
-          </div>
-          <div>
-            <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/recifejs">GitHub</a>
             <a
