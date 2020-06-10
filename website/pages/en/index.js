@@ -120,10 +120,7 @@ class Index extends React.Component {
                 <li>
                   RecifeJs has a whole structure ready to start a GraphQL API.
                 </li>
-                <li>
-                  You no longer have to worry about declaring Types and
-                  Resolvers.
-                </li>
+                <li>Security in creating graphql schemas</li>
               </ul>
             </div>
             <div className="blockImage">
