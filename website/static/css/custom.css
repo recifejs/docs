@@ -166,6 +166,10 @@
   margin-top: -40px;
 }
 
+.mainContainer .container:last-child {
+  margin-bottom: -40px;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
   .homeWrapper {
     flex-direction: column;
