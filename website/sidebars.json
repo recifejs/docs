@@ -5,7 +5,7 @@
     "Concepts Basics": [
       "controllers",
       "decorators",
-      "middleware",
+      "middlewares",
       "models",
       "plugins",
       "scalars",
