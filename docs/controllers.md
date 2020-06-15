@@ -40,7 +40,6 @@ See the example below:
 
 ```ts
 import { Query, Mutation } from "recife";
-import { FilterUser } from "../input/UserInput";
 import UserModel from "../models/UserModel";
 
 class UserController {
@@ -50,7 +49,7 @@ class UserController {
 
   @Query()
   async getUser(): UserModel {
-    return await UserMode.findOne(filter);
+    return await UserModel.findOne();
   }
 }
 
