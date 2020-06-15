@@ -31,3 +31,44 @@ class UserController {
 
 export default UserController;
 ```
+
+## Using the GraphQL
+
+RecifeJs uses decorators to identify the methods of the controllers that will represent the graphql schemes. See more about decorators [here](decorators.md).
+
+See the example below:
+
+```ts
+import { Query, Mutation } from "recife";
+import { FilterUser } from "../input/UserInput";
+import UserModel from "../models/UserModel";
+
+class UserController {
+  constructor() {
+    //
+  }
+
+  @Query()
+  async getUser(): UserModel {
+    return await UserMode.findOne(filter);
+  }
+}
+
+export default UserController;
+```
+
+From this method, the GraphQL schema will be created. See how the query looks:
+
+```graphql
+extend type Query {
+  getUser: User!
+}
+```
+
+### Parameters
+
+`to do`
+
+### Values not required
+
+`to do`
