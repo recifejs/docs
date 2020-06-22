@@ -106,7 +106,7 @@ It is possible to insert some attributes in Subscription to personalize it. Thes
 | `name`        | `string`   | Modifies the schema name |
 | `middlewares` | `string[]` | Run local middlewares    |
 
-## Input
+## Type
 
 Identifies whether a class in the models folder will become a graphql type.
 
