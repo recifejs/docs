@@ -3,6 +3,8 @@ id: models
 title: Models
 ---
 
+The `models` are part of the MVC(model–view–controller) architectural pattern, being the representation of the data layer. In RecifeJs model representation will also be used to define the graphql types.
+
 ## Creating Model
 
 Use the CLI for create a new model:

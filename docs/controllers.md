@@ -3,6 +3,8 @@ id: controllers
 title: Controllers
 ---
 
+The `controllers` are part of the MVC(model–view–controller) architectural pattern, being responsible for receive user requests and controlling the use of models and views. In RecifeJs the controllers will also be used to assemble the graphql schemes.
+
 ## Creating Controller
 
 Use the CLI for create a new controller:
