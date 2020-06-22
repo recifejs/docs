@@ -1,6 +1,7 @@
 ---
 id: about
 title: About RecifeJs
+sidebar_label: About
 ---
 
 RecifeJs is a powerful MVC Framework for GraphQL in NodeJS. Its principle is to compile typescript and creates graphql schemas in a simple and objective way.

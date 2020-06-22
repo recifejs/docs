@@ -1,6 +1,7 @@
 ---
 id: philosophy
 title: Philosophy of RecifeJs
+sidebar_label: Philosophy
 ---
 
 Recifejs is structured around a philosophy. This philosophy aims to make clear the objectives of this framework and the team of maintainers.
