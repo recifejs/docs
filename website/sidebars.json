@@ -11,7 +11,7 @@
       "scalars",
       "validators"
     ],
-    "CLI": ["introduction-cli", "project-cli", "structures-cli"],
+    "CLI": ["introduction-cli", "structures-cli"],
     "Testing": ["introduction-test", "http-tests", "mock-tests"]
   }
 }

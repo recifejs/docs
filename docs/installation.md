@@ -7,7 +7,7 @@ The installation of RecifeJs is very simple and can be done in minutes.
 
 ## Server requirements
 
-The structure of Recifejs needs very few requirements. See requirements below.
+The structure of RecifeJs needs very few requirements. See requirements below.
 
 - Git
 - Node >= 8.0
