@@ -108,7 +108,7 @@ class Index extends React.Component {
               <p>1. Create new project</p>
               <CodeSnippet snippet="npx recife-cli project my-project-name" />
               <p>2. Start the project</p>
-              <CodeSnippet snippet="cd my-project-name <br /> npm starts" />
+              <CodeSnippet snippet="cd my-project-name <br /> npm start" />
             </div>
           </div>
         </div>
