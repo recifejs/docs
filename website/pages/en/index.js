@@ -13,15 +13,29 @@ const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
+const CodeSnippet = ({ snippet }) => (
+  <div className="command-snippet">
+    <div className="command-snippet__header">
+      <span className="command-snippet__header__icon red" />
+      <span className="command-snippet__header__icon yellow" />
+      <span className="command-snippet__header__icon green" />
+    </div>
+    <code
+      className="command-snippet__snippet"
+      dangerouslySetInnerHTML={{ __html: snippet }}
+    />
+  </div>
+);
+
 class HomeSplash extends React.Component {
   render() {
     const { siteConfig, language = "" } = this.props;
     const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
     const langPart = `${language ? `${language}/` : ""}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
 
-    const SplashContainer = props => (
+    const SplashContainer = (props) => (
       <div className="homeContainer">
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">{props.children}</div>
@@ -29,7 +43,7 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const PromoSection = props => (
+    const PromoSection = (props) => (
       <div className="section promoSection">
         <div className="promoRow">
           <div className="pluginRowBlock">{props.children}</div>
@@ -37,7 +51,7 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Button = props => (
+    const Button = (props) => (
       <div className="pluginWrapper buttonWrapper">
         <a className="button" href={props.href} target={props.target}>
           {props.children}
@@ -68,7 +82,7 @@ class Index extends React.Component {
     const { config: siteConfig, language = "" } = this.props;
     const { baseUrl } = siteConfig;
 
-    const Block = props => (
+    const Block = (props) => (
       <Container
         padding={["bottom", "top"]}
         id={props.id}
@@ -92,9 +106,9 @@ class Index extends React.Component {
             <div className="blockContent">
               <h2>Start a project</h2>
               <p>1. Create new project</p>
-              <img className="code" src={`${baseUrl}img/code2.png`} />
+              <CodeSnippet snippet="npx recife-cli project my-project-name" />
               <p>2. Start the project</p>
-              <img className="code" src={`${baseUrl}img/code3.png`} />
+              <CodeSnippet snippet="cd my-project-name <br /> npm start" />
             </div>
           </div>
         </div>
@@ -185,14 +199,15 @@ class Index extends React.Component {
       }
 
       const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
+        .filter((user) => user.pinned)
+        .map((user) => (
           <a href={user.infoLink} key={user.infoLink}>
             <img src={user.image} alt={user.caption} title={user.caption} />
           </a>
         ));
 
-      const pageUrl = page => baseUrl + (language ? `${language}/` : "") + page;
+      const pageUrl = (page) =>
+        baseUrl + (language ? `${language}/` : "") + page;
 
       return (
         <div className="productShowcaseSection paddingBottom">
