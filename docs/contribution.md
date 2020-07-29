@@ -3,6 +3,10 @@ id: contribution
 title: Contribution
 ---
 
+## Contributors
+
+![Contributors list](https://opencollective.com/recifejs/contributors.svg)
+
 ## How to contribute
 
 1. Fork this project
