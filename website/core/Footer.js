@@ -50,7 +50,6 @@ class Footer extends React.Component {
               User Showcase
             </a>
             <a href="https://discordapp.com/">Project Chat</a>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/recifejs">GitHub</a>
             <a
               className="github-button"

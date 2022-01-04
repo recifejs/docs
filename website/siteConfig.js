@@ -14,8 +14,8 @@ const users = [
     caption: "User1",
     image: "/img/undraw_open_source.svg",
     infoLink: "https://www.facebook.com",
-    pinned: true
-  }
+    pinned: true,
+  },
 ];
 
 const siteConfig = {
@@ -27,8 +27,7 @@ const siteConfig = {
   organizationName: "recifejs",
   headerLinks: [
     { doc: "about", label: "Docs" },
-    { blog: "blog", label: "Blog" },
-    { href: "https://github.com/recifejs", label: "Github" }
+    { href: "https://github.com/recifejs", label: "Github" },
   ],
 
   users,
@@ -39,7 +38,7 @@ const siteConfig = {
 
   colors: {
     primaryColor: "#062fa7",
-    secondaryColor: "#042074"
+    secondaryColor: "#042074",
   },
 
   /* Custom fonts for website */
@@ -59,13 +58,13 @@ const siteConfig = {
   copyright: `Copyright © ${new Date().getFullYear()} RecifeJs`,
 
   highlight: {
-    theme: "tomorrow-night-bright"
+    theme: "tomorrow-night-bright",
   },
 
   scripts: [
     "https://buttons.github.io/buttons.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
-    "/js/code-block-button.js"
+    "/js/code-block-button.js",
   ],
   stylesheets: ["/css/code-block-button.css"],
 
@@ -78,7 +77,7 @@ const siteConfig = {
 
   enableUpdateBy: true,
   enableUpdateTime: true,
-  repoUrl: "https://github.com/recifejs/recife"
+  repoUrl: "https://github.com/recifejs/recife",
 };
 
 module.exports = siteConfig;

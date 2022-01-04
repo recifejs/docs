@@ -42,9 +42,9 @@ npm run server
 <br />
 For more details visit the [CLI](introduction-cli.md) topic.
 
-## Using via npx
+## Using with npx
 
-If you do not want to install the CLI it is also possible to use it via npx. Below is an example of its use to create a new project.
+If you do not want to install the CLI it is also possible to use it with npx. Below is an example of its use to create a new project.
 
 ```bash
 npx recife-cli project my-project-name

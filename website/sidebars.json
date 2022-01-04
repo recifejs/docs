@@ -11,6 +11,7 @@
       "scalars",
       "validators"
     ],
+    "Libraries": ["recife-express", "recife-koa", "recife-fastify"],
     "CLI": ["introduction-cli", "structures-cli"],
     "Testing": ["introduction-test", "http-tests", "mock-tests"]
   }
